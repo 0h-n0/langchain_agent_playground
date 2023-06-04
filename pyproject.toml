@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "langchain-agent-playgrund"
+version = "0.1.0"
+description = ""
+authors = ["koji-ono_exwzd <koji.ono@exwzd.com>"]
+readme = "README.md"
+packages = [{include = "langchain_agent_playgrund"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.189"
+python-dotenv = "^1.0.0"
+openai = "^0.27.7"
+boto3 = "^1.26.146"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
